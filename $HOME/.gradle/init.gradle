@@ -1,0 +1,10 @@
+gradle.projectsEvaluated {
+  rootProject.subprojects {
+    tasks.withType(Test) {
+      jvmArgs += [System.getenv("HARNESS_JAVA_AGENT")]
+      filter {
+        setFailOnNoMatchingTests(false)
+      }
+    }
+  }
+}
