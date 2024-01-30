@@ -4,7 +4,7 @@ A memory leak detection library for Android.
 
 ### [square.github.io/leakcanary](https://square.github.io/leakcanary)
 
-🙏 If you like LeakCanary you can show support by starring ⭐ this repository.
+🙏 If you like LeakCanary you can show support by starring ⭐ this repository.jjjjj
 
 ## License
 
